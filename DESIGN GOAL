@@ -1,0 +1,11 @@
+Design goals
+* Provided mutual exclusion for selected array elements.
+
+* Achieved a good degree of parallelism by using more than one semaphore to solve problems in less time.
+
+* The parent process  determines when the sorting is complete and the program, can be terminated.
+
+* The program takes in a user input for sorting.
+
+* The debug mode will be used to show which processes are running and how it is sorting the colors
+

@@ -1,0 +1,30 @@
+Pseducode
+process(0){
+    if (a[0]==g && a[1]==r ){
+        temp=a[0];
+         a[0]=a[1];
+         a[1]=temp
+    }
+    semaphore1(wait)
+    if (a[1]==g && a[2]==r ){
+        temp=a[1];
+         a[1]=a[2];
+         a[2]=temp;
+    }
+    semaphore1(open)
+
+}
+process(2){
+    semaphore1(wait);
+    if (a[2]==g && a[3]==r ){
+        temp=a[2]==g;
+         a[2]=a[3];
+         a[3]=temp;
+    }
+    semaphore1(open);
+    semaphore2(wait)
+    if (a[1]==g && a[2]==r ){
+        temp=a[1]==g;
+  							Discussion
+  							
+  it solves the problem by checking if the right or left is a green or red color if the red is in the left it switches it to the right and switches the green to the left and if the part its checking is being shared by two process it callse the semaphore to block any other process from accessing that memory  and then proceeds to swap 

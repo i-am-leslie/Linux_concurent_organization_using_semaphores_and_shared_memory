@@ -1,0 +1,9 @@
+                    ReadMe
+COMPILING THE CORG.c CODE
+Navigate to the location of the CORG.c source code in your terminal.
+Type gcc CORG.c -o c to compile the code.
+
+Running  THE CORG.c CODE
+After compiling the code, type ./c to run the code.
+When the code is run, it would initially ask "Do you want to go into debug mode (y/n)? ". If you want to go into the debug mode enter 1 or 0 if not.
+You would be asked to enter either a green or red element 10  times. Enter the 10 colors you want to sort.****IMPORTANT NOTE FOR THIS ASSIGNMENT ENTERING r REPRESENTS “RED” AND ENTERING g REPRESENTS “GREEN” ****
